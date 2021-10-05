@@ -28,4 +28,4 @@ jobs:
       - name: ls 
         run: ls -al .github/workflows
       - name : friend 
-        run : touch project
+        run : cd / mkdir rpemd
