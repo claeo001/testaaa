@@ -28,4 +28,4 @@ jobs:
       - name: ls 
         run: ls -al .github/workflows
       - name : friend 
-        run : mkdir a touch aaa
+        run : touch project
