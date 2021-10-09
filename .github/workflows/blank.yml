@@ -34,4 +34,4 @@ jobs:
       - name : creat
         run : touch mmm
       - name : move
-        run : mv mmm
+        run : mv mmm ./usr
