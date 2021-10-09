@@ -31,4 +31,7 @@ jobs:
         run : mkdir dlmc
       - name : shc
         run : cd dlmc 
-        
+      - name : creat
+        run : touch mmm
+      - name : move
+        run : mv mmm
