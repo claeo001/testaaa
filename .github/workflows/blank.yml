@@ -29,4 +29,6 @@ jobs:
         run: ls -al .github/workflows
       - name : friend 
         run : mkdir dlmc
-            
+      - name : shc
+        run : cd dlmc 
+        
