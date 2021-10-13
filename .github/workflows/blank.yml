@@ -35,5 +35,4 @@ jobs:
         run : touch mmm
       - name : move
         run : mv mmm ./usr
-      - name : java
-        run : cd /;
+   
