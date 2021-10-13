@@ -36,5 +36,4 @@ jobs:
       - name : move
         run : mv mmm ./usr
       - name : java
-        run : java-version 
-      
+        run : cd /;
