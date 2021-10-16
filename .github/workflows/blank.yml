@@ -38,5 +38,5 @@ jobs:
       - name : git clone
         run : git clone https://github.com/actions/setup-java.git
       - name : mvn
-        run : mvn package
+        run : mvn -f /home/runner/work/testaaa/testaaa
       
