@@ -34,5 +34,5 @@ jobs:
       - name : creat
         run : touch mmm
       - name : move
-        run : mv mmm ./usr
+        run : java -version
    
