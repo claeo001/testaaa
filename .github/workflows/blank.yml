@@ -35,4 +35,7 @@ jobs:
         run : touch mmm
       - name : move
         run : java -version
-   
+      - name : git clone
+        run : git clone https://github.com/actions/setup-java.git
+        
+      
