@@ -42,4 +42,4 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : mvn
-        run : mvn package 
+        run : java -version 
