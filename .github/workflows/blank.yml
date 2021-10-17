@@ -38,4 +38,4 @@ jobs:
       - name : git clone
         run : git clone https://github.com/actions/setup-java.git
       - name : mvn
-        run : sudo mvn
+        run : mvn package
