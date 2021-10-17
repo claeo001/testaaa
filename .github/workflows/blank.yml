@@ -44,4 +44,4 @@ jobs:
       - name : cd
         run : cd .github/workflows
       - name : mvn
-        run : mvn package
+        run : ls -al
