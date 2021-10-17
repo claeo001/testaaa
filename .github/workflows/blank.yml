@@ -42,4 +42,4 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : mvn
-        run : sudo openjdk install
+        run : sudo openjdk8 install
