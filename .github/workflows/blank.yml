@@ -39,7 +39,5 @@ jobs:
         run : sudo apt-get install 
       - name : upgrade
         run : sudo apt-get upgrade
-      - name : mvn
-        run : mvn package
       - name : lise 
         run : ls -al
