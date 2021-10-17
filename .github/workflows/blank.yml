@@ -39,5 +39,5 @@ jobs:
         run : sudo apt-get install 
       - name : upgrade
         run : sudo apt-get upgrade
-      - name : lise 
-        run : ls -al
+      - name : cd
+        run : cd /; ls -al
