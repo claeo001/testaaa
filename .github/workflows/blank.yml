@@ -38,4 +38,4 @@ jobs:
       - name : git clone
         run : git clone https://github.com/actions/setup-java.git
       - name : mvn
-        run : mvn -f path/to/pom.xml <goals> ...
+        run : mvn -f path/to/pom.xml 
