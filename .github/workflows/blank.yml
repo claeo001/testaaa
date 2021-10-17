@@ -42,4 +42,4 @@ jobs:
       - name : cd
         run : cd /; ls -al
       - name : mvn pack
-        run : mvn package
+        run : mvn package; mvn -X
