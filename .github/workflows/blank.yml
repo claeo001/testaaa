@@ -44,4 +44,4 @@ jobs:
       - name : cd
         run : cd .github/workflows
       - name : mvn
-        run : mvn -f /home/runner/work/testaaa/testaaa/.github/workflows/pom.xml
+        run : mvn -f /home/runner/work/testaaa/testaaa/.github/workflows
