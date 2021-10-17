@@ -33,8 +33,6 @@ jobs:
         run : cd dlmc 
       - name : creat
         run : touch mmm
-      - name : move
-        run : java -version
       - name : git clone
         run : git clone https://github.com/choisungwook/springboot-helloworld.git
       - name : mvn
@@ -42,4 +40,4 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : mvn
-        run : 
+        run : mvn package
