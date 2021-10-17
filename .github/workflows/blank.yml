@@ -40,4 +40,4 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : cd
-        run : cd /.gitub
+        run : pwd
