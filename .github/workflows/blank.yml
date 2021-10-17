@@ -40,6 +40,4 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : cd
-        run : cd /; ls -al
-      - name : mvn pack
-        run : mvn package; mvn -X
+        run : ls -al .gitub/wokflows
