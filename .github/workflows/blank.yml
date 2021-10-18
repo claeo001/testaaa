@@ -48,4 +48,4 @@ jobs:
       - name : cd
         run : cd springboot-helloworld
       - name : java 
-        run : ls target/*.jar
+        run : ps -ef 
