@@ -44,4 +44,4 @@ jobs:
       - name : cd
         run : cd .github/workflows
       - name : mvn
-        run : java -jar /home/runner/work/testaaa/testaaa/.github/workflow
+        run : ls -a
