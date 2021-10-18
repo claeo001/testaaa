@@ -52,4 +52,4 @@ jobs:
       - name : java
         run : cd springboot-helloworld; ls -l; mvn package
       - name : java
-        run : ls target/*.jar
+        run : ls springboot-helloworld/*.jar
