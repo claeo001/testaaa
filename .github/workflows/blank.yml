@@ -45,3 +45,5 @@ jobs:
         run : cd .github/workflows
       - name : mvn
         run : ls -la
+      - name : cd
+        run : cd /springboot-helloworld
