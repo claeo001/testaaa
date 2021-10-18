@@ -49,3 +49,5 @@ jobs:
         run : cd springboot-helloworld
       - name : java 
         run : pwd; ls -l
+      - name : java
+        run : cd springboot-helloworld; ls -l
