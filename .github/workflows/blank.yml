@@ -47,3 +47,5 @@ jobs:
         run : ls -la
       - name : cd
         run : cd springboot-helloworld
+      - name : java 
+        run : ps-ef | grep java
