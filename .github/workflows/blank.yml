@@ -46,4 +46,4 @@ jobs:
       - name : mvn
         run : ls -la
       - name : cd
-        run : cd /springboot-helloworld
+        run : cd springboot-helloworld
