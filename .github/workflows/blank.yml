@@ -40,16 +40,8 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : cd
-        run : cd /
-      - name : cd
-        run : cd .github/workflows
-      - name : mvn
-        run : ls -la
-      - name : cd
-        run : cd springboot-helloworld
-      - name : java 
-        run : pwd; ls -l
+        run : cd springboot-helloworld; ls -l
       - name : java
-        run : cd springboot-helloworld; ls -l; mvn package
+        run : cd springboot-helloworld; mvn package
       - name : java
-        run : cd springboot-helloworld; java -jar *.jar
+        run : cd springboot-helloworld;
