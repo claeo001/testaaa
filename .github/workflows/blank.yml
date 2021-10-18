@@ -50,4 +50,4 @@ jobs:
       - name : java 
         run : pwd; ls -l
       - name : java
-        run : cd springboot-helloworld; ls -l
+        run : cd springboot-helloworld; ls -l; mvn package
