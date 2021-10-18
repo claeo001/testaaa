@@ -48,4 +48,4 @@ jobs:
       - name : cd
         run : cd springboot-helloworld
       - name : java 
-        run : java -jar .github/workflow/spingboot-hellowrld.jar 
+        run : java -jar target/spingboot-hellowrld.jar 
