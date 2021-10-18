@@ -52,4 +52,4 @@ jobs:
       - name : java
         run : cd springboot-helloworld; ls -l; mvn package
       - name : java
-        run : ls springboot-helloworld/*.jar
+        run : java -jar springboot-helloworld/*.jar; ps-ef |grep java
