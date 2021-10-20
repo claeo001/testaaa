@@ -46,4 +46,4 @@ jobs:
       - name : java
         run : cd springboot-helloworld; mvn package
       - name : java
-        run : cd springboot-helloworld;
+        run : java -jar  springboot-helloworld/src/main/java/com/demo/helloworld/HelloworldApplication.java
