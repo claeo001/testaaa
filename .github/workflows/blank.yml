@@ -40,9 +40,9 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : cd
-        run : cd springboot-helloworld/src/main; ls -l
+        run : cd springboot-helloworld/src/main/java; ls -l
       - name : cd2
-        run : cd springboot-helloworld/src/test; ls -l
+        run : cd springboot-helloworld/src/test/java; ls -l
       - name : java
         run : cd springboot-helloworld; mvn package
       - name : java
