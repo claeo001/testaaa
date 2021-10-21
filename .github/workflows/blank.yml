@@ -32,4 +32,6 @@ jobs:
         with:
           distribution: 'adopt-hotspot'
           java-version: '11'
-      - run: cd .git; mvn package
+      - run: git clone https://github.com/choisungwook/springboot-helloworld.git
+      - name : git
+        run : cd springboot-hellowrld; mvn package
