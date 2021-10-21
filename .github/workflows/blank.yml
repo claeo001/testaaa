@@ -34,4 +34,4 @@ jobs:
           java-version: '11'
       - run: git clone https://github.com/choisungwook/springboot-helloworld.git
       - name : git
-        run : cd springboot-hellowrld; mvn package
+        run : cd springboot-hellworld; mvn package
