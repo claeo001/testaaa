@@ -45,4 +45,6 @@ jobs:
         run : cd springboot-helloworld/src/test/java/com/demo/helloworld; ls -l
       - name : java
         run : cd springboot-helloworld; mvn package; ls target/*jar
+      - name : merge
+        run : git merge
    
