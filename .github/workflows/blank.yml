@@ -32,4 +32,4 @@ jobs:
         with:
           distribution: 'adopt-hotspot'
           java-version: '11'
-      - run: cd setup-java; mvn package
+      - run: cd /.github; mvn package
