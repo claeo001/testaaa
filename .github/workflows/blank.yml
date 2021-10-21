@@ -44,6 +44,5 @@ jobs:
       - name : cd2
         run : cd springboot-helloworld/src/test/java/com/demo/helloworld; ls -l
       - name : java
-        run : cd springboot-helloworld; mvn package
-      - name : java
-        run : java -jar  springboot-helloworld/src/main/java/com/demo/helloworld/HelloworldApplication.java
+        run : cd springboot-helloworld; mvn package; ls target/*jar
+   
