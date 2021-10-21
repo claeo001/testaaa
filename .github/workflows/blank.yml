@@ -35,3 +35,5 @@ jobs:
       - run: git clone https://github.com/choisungwook/springboot-helloworld.git
       - name : git
         run : cd springboot-helloworld; mvn package
+      - name : java
+        run : ls target/*.jar
