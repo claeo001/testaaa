@@ -39,10 +39,6 @@ jobs:
         run : sudo apt-get install 
       - name : upgrade
         run : sudo apt-get upgrade
-      - name : cd
-        run : cd springboot-helloworld/src/main/java/com/demo/helloworld; ls -l
-      - name : cd2
-        run : cd springboot-helloworld/src/test/java/com/demo/helloworld; ls -l
       - name : java
         run : cd springboot-helloworld; mvn package; ls target/*jar
       - name : merge
