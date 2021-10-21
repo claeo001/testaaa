@@ -40,4 +40,4 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : java
-        run : cd setup-java; ls -l
+        run : cd setup-java/.github; mvn package
