@@ -32,4 +32,4 @@ jobs:
         with:
           distribution: 'adopt-hotspot'
           java-version: '11'
-      - run: ls -al
+      - run: ls targer/*jar
