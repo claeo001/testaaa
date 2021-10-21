@@ -40,6 +40,5 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name: Setup Java JDK
-        uses: actions/setup-java@v2.3.1
-      - name : mvn
-        run : mvn package
+        uses: java-version; actions/setup-java@v2.3.1
+
