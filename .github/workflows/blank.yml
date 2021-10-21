@@ -40,7 +40,6 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : java
-        run : java -version 
-      - name: Setup Java JDK
-        uses: actions/setup-java@v11.0
+        run : java-versiondistribution
+    
 
