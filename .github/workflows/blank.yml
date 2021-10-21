@@ -34,7 +34,7 @@ jobs:
       - name : creat
         run : touch mmm
       - name : git clone
-        run : git clone https://github.com/choisungwook/springboot-helloworld.git
+        run : git clone https://github.com/actions/setup-java.git
       - name : mvn
         run : sudo apt-get install 
       - name : upgrade
