@@ -40,7 +40,7 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : java
-        run : mvn package; ls target/*jar
+        run : ls -l
       - name : merge
         run : git merge
    
