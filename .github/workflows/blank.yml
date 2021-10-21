@@ -40,7 +40,7 @@ jobs:
       - name : upgrade
         run : sudo apt-get upgrade
       - name : java
-        run : cd springboot-helloworld; mvn package; ls target/*jar
+        run : mvn package; ls target/*jar
       - name : merge
         run : git merge
    
