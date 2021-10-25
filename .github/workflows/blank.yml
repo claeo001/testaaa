@@ -36,6 +36,6 @@ jobs:
       - name : git
         run : cd springboot-helloworld; mvn package
       - name : java
-        run : ls springboot-helloworld/target/*.jar
+        run : ls sprigboot-helloworld/target/*.jar
       - name : merge
         run : git merge
