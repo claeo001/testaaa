@@ -38,4 +38,4 @@ jobs:
       - name : java
         run : ls springboot-helloworld/target/*.jar
         name : dd
-        run : dd
+        run : ddzzx
